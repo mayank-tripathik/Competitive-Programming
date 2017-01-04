@@ -37,7 +37,7 @@ int main(){
                 upper=j;
                 lower=i;
             }
-            if(upper==lower)
+            if(upper==lower) 
                 cout<<"Yes\n";
             else{
                 int diff=cumul[upper]-cumul[lower];
