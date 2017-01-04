@@ -1,3 +1,9 @@
+/*
+ * Problem Statement:
+ * Given an input string of N parenthesis consisting of any combination of (),[],{}. Determine if the string is balanced.
+ */
+
+
 #include<bits/stdc++.h>
 using namespace std;
 
