@@ -1,3 +1,10 @@
+/*
+ * Problem: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=45
+ * Solution: Form convex hull of each kingdom and see if attacks are inside any kingdom
+ * Include area of each kingdom that is within a attack reach
+ */
+
+
 #include<bits/stdc++.h>
 #define PI 3.141592
 const double eps=1e-9;
