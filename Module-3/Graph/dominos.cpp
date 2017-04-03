@@ -2,9 +2,9 @@
  * Problem :
  * Solution : Use topological sort to get those domino that are not dependent on anyone. Now apply dfs on each domino one by one
  * to sort out all dominos that would fall and increase the count for every domino on which dfs is applied.
- * /
+ */
  
- #include<bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 
 vector<int> topo;
