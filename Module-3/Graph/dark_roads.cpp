@@ -1,7 +1,7 @@
 /*
  * Problem: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2678
- * Simple application of spanning tree algo (prim or krushkal) where max amount saved can be obtained by first calculating
- * weight of MST and then subtracting total weight of graph from MST weight.
+ * Solution : Simple application of spanning tree algo (prim or krushkal) where max amount saved can be obtained by first 
+ * calculating weight of MST and then subtracting total weight of graph from MST weight.
  */
  
 #include<iostream>
