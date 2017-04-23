@@ -1,5 +1,12 @@
 /*
  * Problem : https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2507
+ * Since time allowed is 7 seconds, Naive way of generating Suffix array is enough
+ * Uses Naive suffix array construction of complexity O(n^2logn) [storing suffixes and sorting them]
+ * Adjacent suffixes are then compared to find longest common prefix between them
+ * To find frequency of LCP, KMP is used to find how many times LCP repeats
+ * Complexity: O(n^2logn)+O(n^2)+O(n+m) = O(n^2logn)
+ */
+
  
 
 #include<bits/stdc++.h>
